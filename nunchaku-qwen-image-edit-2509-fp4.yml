@@ -1,0 +1,22 @@
+models:
+  svdq-fp4_r128-qwen-image-edit-2509-lightningv2.0-4steps:
+    name: "Qwen Image Edit 2509 Diffusion Model (fp4_r128) Lightning V2.0 4 Steps"
+    url: "https://huggingface.co/nunchaku-tech/nunchaku-qwen-image-edit-2509/resolve/main/svdq-fp4_r128-qwen-image-edit-2509-lightningv2.0-4steps.safetensors"
+    folder: "diffusion_models"
+
+  qwen-text-encoder:
+    name: "Qwen Image Edit Text Encoder"
+    url: "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+    folder: "text_encoders"
+
+  qwen-vae:
+    name: "Qwen Image Edit VAE"
+    url: "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors"
+    folder: "vae"
+
+config:
+  enable_download: true
+  retry_count: 3
+  timeout_seconds: 300
+  max_workers: 3
+  verify_checksum: false
