@@ -11,6 +11,10 @@ models:
     name: "Qwen Image Edit VAE"
     url: "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors"
     folder: "vae"
+  face_yolov8m:
+    name: "face_yolov8m"
+    url: "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt"
+    folder: "ultralytics/bbox"
 config:
   enable_download: true
   retry_count: 3
