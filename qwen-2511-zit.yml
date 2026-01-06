@@ -15,6 +15,18 @@ models:
     name: "face_yolov8m"
     url: "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8m.pt"
     folder: "ultralytics/bbox"
+  z_image_turbo:
+    name: "Z-Image-Turbo"
+    url: "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors"
+    folder: "diffusion_models"
+  qwen_3_4b:
+    name: "Qwen3 4B"
+    url: "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors"
+    folder: "text_encoders"
+  z_image_vae:
+    name: "ae.safetensors"
+    url: "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors"
+    folder: "vae"
 config:
   enable_download: true
   retry_count: 3
