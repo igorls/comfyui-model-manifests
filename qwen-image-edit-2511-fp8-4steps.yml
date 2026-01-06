@@ -1,8 +1,9 @@
 models:
   qwen-image-edit-2511-fp8-4steps:
     name: "Qwen-Image-Edit-2511-Lightning"
-    url: "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui.safetensors"
+    url: "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui_4steps_v1.0.safetensors"
     folder: "diffusion_models"
+    filename: "qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui.safetensors"
   qwen-text-encoder:
     name: "Qwen Image Edit Text Encoder"
     url: "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
